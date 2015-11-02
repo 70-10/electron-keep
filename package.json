@@ -1,0 +1,28 @@
+{
+  "name": "electron-keep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/70-10/electron-keep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/70-10/electron-keep/issues"
+  },
+  "homepage": "https://github.com/70-10/electron-keep#readme",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.34.2"
+  },
+  "dependencies": {
+    "menubar": "^2.3.0"
+  }
+}
