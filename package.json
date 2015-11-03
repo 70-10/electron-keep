@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-packager . Electron-Keep --platform=darwin --arch=x64 --version=0.34.2 --prune --asar --out=build --ignore=build --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
