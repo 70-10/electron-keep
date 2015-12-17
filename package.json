@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Electron-Keep --platform=darwin --arch=x64 --version=0.34.2 --prune --asar --out=build --ignore=build --overwrite",
+    "build": "electron-packager . Electron-Keep --platform=darwin --arch=x64 --version=0.36.0 --prune --asar --out=build --ignore=build --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,16 +14,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/70-10/electron-keep/issues"
   },
   "homepage": "https://github.com/70-10/electron-keep#readme",
   "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.34.2"
+    "electron-packager": "5.2.0",
+    "electron-prebuilt": "0.36.0"
   },
   "dependencies": {
-    "menubar": "^2.3.0"
+    "menubar": "3.0.0"
   }
 }
